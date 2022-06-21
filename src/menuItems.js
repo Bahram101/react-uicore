@@ -7,6 +7,7 @@ export const menuItems = [
     submenu: [
       {
         title: 'web design',
+        url: 'https://google.com',
       },
       // {
       //   title: 'web development',
@@ -29,6 +30,7 @@ export const menuItems = [
       // },
       {
         title: 'SEO',
+        url: 'https://facebook.com',
       },
     ],
   },
@@ -37,9 +39,11 @@ export const menuItems = [
     submenu: [
       {
         title: 'Who we are',
+        url: 'https://youtube.com',
       },
       {
         title: 'Our values',
+        url: 'https://instagram.com',
       },
     ],
   },

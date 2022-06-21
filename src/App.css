@@ -57,7 +57,10 @@ header {
   list-style: none;
   margin-bottom: 0;
 }
-
+.menus .menu-item a:hover {
+  cursor: pointer;
+  color: #555555;
+}
 .menu-item {
   position: relative;
   font-size: 14px;

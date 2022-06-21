@@ -45,7 +45,7 @@ const MenuItem = ({ item, depthLevel }) => {
           <Dropdown depthLevel={depthLevel} submenus={item.submenu} dropdown={dropdown} />
         </>
       ) : (
-        <a href="/#">{item.title}</a>
+        <a href={item.url}>{item.title}</a>
       )}
     </li>
   )

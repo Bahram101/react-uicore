@@ -27,15 +27,6 @@ const AppHeader = () => {
   return (
     <CHeader position="sticky" className="mb-4">
       <CContainer>
-        {/* <CHeaderToggler
-          className="ps-1"
-          onClick={() => dispatch({ type: 'set', sidebarShow: !sidebarShow })}
-        >
-          <CIcon icon={cilMenu} size="lg" />
-        </CHeaderToggler> */}
-        {/* <CHeaderBrand className="mx-auto d-md-none" to="/">
-          <CIcon icon={logo} height={48} alt="Logo" />
-        </CHeaderBrand> */}
         <CSidebarBrand className="d-none d-md-flex" to="/" style={{ marginRight: '20px' }}>
           <CIcon className="sidebar-brand-full" icon={logoNegative} height={35} />
           <CIcon className="sidebar-brand-narrow" icon={sygnet} height={35} />
@@ -64,10 +55,6 @@ const AppHeader = () => {
           <AppHeaderDropdown />
         </CHeaderNav>
       </CContainer>
-      {/* <CHeaderDivider /> */}
-      {/* <CContainer fluid>
-        <AppBreadcrumb />
-      </CContainer> */}
     </CHeader>
   )
 }

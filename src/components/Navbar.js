@@ -1,7 +1,6 @@
 import React from 'react'
 import { menuItems } from '../menuItems'
 import MenuItem from './MenuItem'
-import { CContainer } from '@coreui/react'
 
 const Navbar = () => {
   return (
